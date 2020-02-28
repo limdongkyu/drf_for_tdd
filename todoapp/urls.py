@@ -14,7 +14,7 @@ admin.site.site_title = "DRF Sample1"
 admin.site.index_title = "TOD-DRF FOR TDD"
 
 api_urls = [
-    path('todos/', include('todos.urls')),
+    path('todos', include('todos.urls')),
     path('', include('users.urls')),
 ]
 
