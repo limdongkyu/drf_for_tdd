@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/limdongkyu/dfr_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/dfr_for_tdd)
+[![CircleCI](https://circleci.com/gh/limdongkyu/drf_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/drf_for_tdd)
 
 
 ## for 글로컬 주니어 개발자들
