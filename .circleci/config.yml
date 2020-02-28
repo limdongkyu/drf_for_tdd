@@ -14,8 +14,6 @@ jobs:
 
     steps:
       - checkout
-      - codecov/upload:
-          file: {{ coverage_report_filepath }}
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -45,6 +43,9 @@ jobs:
       - store_artifacts:
           path: test-reports
           destination: test-reports
+          
+      - codecov/upload:
+          file: {{ coverage_report_filepath }}
 
 workflows:
   version: 2
