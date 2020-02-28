@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/limdongkyu/dfr_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/dfr_for_tdd)
+
+
 ## for 글로컬 주니어 개발자들
 
 DRF 기본 사용 방법 및 TDD 사용 방법 및 이해
