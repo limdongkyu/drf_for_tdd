@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/limdongkyu/dfr_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/dfr_for_tdd)
-
+[![CircleCI](https://circleci.com/gh/limdongkyu/drf_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/drf_for_tdd)
+[![codecov](https://codecov.io/gh/limdongkyu/drf_for_tdd/branch/master/graph/badge.svg)](https://codecov.io/gh/limdongkyu/drf_for_tdd)
 
 ## for 글로컬 주니어 개발자들
 
@@ -61,6 +61,9 @@ DRF 기본 사용 방법 및 TDD 사용 방법 및 이해
 ### 마치고
 
 테스트 코드 작성의 정답은 없습니다. 
+
 하지만 개발을 하면 할수록 모두가 필요성을 느끼죠?
+
 테스트 코드는 스킬이 아닙니다. 단지 개발자의 성의라고 생각됩니다.
+
 글로컬 주니어 개발자분들은 앞으로 성의 있는 개발자가 되길 바랍니다.
