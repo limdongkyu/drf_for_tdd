@@ -39,13 +39,12 @@ jobs:
             . venv/bin/activate
             python manage.py migrate
             coverage run ./manage.py test
+      - codecov/upload:
+          flags: backend,unittest
 
       - store_artifacts:
           path: test-reports
           destination: test-reports
-          
-      - codecov/upload:
-          file: {{ bash <(curl -s https://codecov.io/bash) }}
 
 workflows:
   version: 2
