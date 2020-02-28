@@ -1,5 +1,5 @@
 [![CircleCI](https://circleci.com/gh/limdongkyu/drf_for_tdd.svg?style=svg)](https://circleci.com/gh/limdongkyu/drf_for_tdd)
-
+[![codecov](https://codecov.io/gh/limdongkyu/drf_for_tdd/branch/master/graph/badge.svg)](https://codecov.io/gh/limdongkyu/drf_for_tdd)
 
 ## for 글로컬 주니어 개발자들
 
