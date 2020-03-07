@@ -10,11 +10,11 @@ from drf_yasg import openapi
 
 
 admin.site.site_header = "Todo-DRF Admin"
-admin.site.site_title = "DRF Sample1"
+admin.site.site_title = "DRF Sample"
 admin.site.index_title = "TOD-DRF FOR TDD"
 
 api_urls = [
-    path('todos', include('todos.urls')),
+    path('todos/', include('todos.urls')),
     path('', include('users.urls')),
 ]
 
