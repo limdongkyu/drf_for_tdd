@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  web:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
@@ -8,4 +8,4 @@ services:
       - "8000:8000"
     command: python manage.py runserver 0:8000
     volumes:
-      - ./:/repo/
+      - ./:/app/
